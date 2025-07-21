@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+     font-family: "Roboto Condensed", sans-serif;
+}
+
+.income{
+    margin-top: 13%;
+    margin-left: 35%;
+    width: 30%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 20px;
+}
+
+.expensive-income{
+    text-align: center;
+    align-self: center;
+}
+
+.expensive-income h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text h2{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.text p{
+    margin-top: 2px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.display{
+   display: grid;
+   grid-template-columns: 0.4fr 0.4fr;
+   margin-left: 10%;
+   margin-top: 20px;
+   grid-column-gap: 10px;
+}
+
+
+.display .dis-is {
+    background-color:#dfdddd ;
+    width: 150px;
+    padding: 15px 0px 15px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.display .dis {
+    background-color:#dfdddd ;
+    width: 150px;
+    padding: 15px 0px 15px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.dis p{
+   color: red;
+}
+
+
+.dis-is p{
+   color: green;
+}
+
+.he{
+    text-align: start;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: start;
+    font-size: 20px;
+}
+
+input{
+    margin-top: 10px;
+    width: 80%;
+    padding: 15px;
+    font-size: 15px;
+}
+
+button{
+    margin-top: 10px;
+    width: 90%;
+    padding: 12px;
+    font-size: 15px;
+    background-color: rgb(40, 118, 170);
+    color: white;
+    outline: none;
+    border: none;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.list p{
+    width: 95%;
+    background-color: #dfdddd;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.list button{
+    padding: 5px;
+    background: red;
+    font-size: 15px;
+    width: 50px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+#list-type {
+    max-height: 60px;
+    overflow-y: auto;
+    margin-top: 10px;
+    width: 95%;             
+    box-sizing: border-box;  
+    padding : 0px;
+}
+
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfdddd;
+    margin-top: 15px; 
+    padding: 0px;
+    font-size: 18px;
+    border-left: 5px solid green;
+    border-radius: 4px;
+}
+
+.transaction.expense {
+    border-left-color: red;
+}
+
+.transaction-info {
+    flex: 1;
+}
+
+.transaction button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 30px;
+    margin-right: 10px;
+}

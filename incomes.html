@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expensive Tracker</title>
+</head>
+<body>
+    <div class="income">
+        <div class="expensive-income">
+            <h1>💰 Expense Tracker</h1>
+
+             <div class="text">
+            <h2>Your Balance</h2>
+            <p id="Balance">$00.00</p>
+            </div>
+
+
+            <div class="display">
+
+                <div class="dis-is">
+                <h4>Income</h4>
+                <p id="income">+$0000.00</p>
+                </div>
+
+                <div class="dis">
+                <h4>Expense</h4>
+                <p id="expense">-$000.00</p>
+                </div>
+
+            </div>
+
+            <div class="he">
+            <h2>Transaction History</h2>
+            <div  id="list-type"></div>
+            </div>
+
+            <h3>Add new Transaction</h3>
+            <input type="text" placeholder="Enter description " id="text-type"><br>
+            <input type="number" placeholder="Amount(+/-)" id="num"><br>
+            <button id="btn" onclick="updateValues()">Add Transaction</button>
+           <script src="spended.js"></script>
+        </div>
+    </div>
+
+
+</body>
+</html>
